@@ -1,0 +1,1259 @@
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '41698'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend'
+    'REQUEST_URI' => '/backend'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend'
+    'REQUEST_TIME_FLOAT' => 1680338495.2675
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '41698'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338495.3331
+    'REQUEST_TIME' => 1680338495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: Login Required in /app/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /app/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /app/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /app/vendor/yiisoft/yii2/base/Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /app/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /app/vendor/yiisoft/yii2/web/Controller.php(222): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#9 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /app/backend/web/index.php(18): yii\base\Application->run()
+#12 {main}
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '41698'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'REQUEST_URI' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'REQUEST_TIME_FLOAT' => 1680338495.5159
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: Login Required in /app/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /app/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /app/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /app/vendor/yiisoft/yii2/base/Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /app/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /app/vendor/yiisoft/yii2/web/Controller.php(222): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#9 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /app/backend/web/index.php(18): yii\base\Application->run()
+#12 {main}
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/css/site.css'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '41696'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/css/site.css'
+    'REQUEST_URI' => '/backend/css/site.css'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/css/site.css'
+    'REQUEST_TIME_FLOAT' => 1680338495.5202
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/86c85ce6/jquery.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/86c85ce6/jquery.js'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42080'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/86c85ce6/jquery.js'
+    'REQUEST_URI' => '/backend/assets/86c85ce6/jquery.js'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/86c85ce6/jquery.js'
+    'REQUEST_TIME_FLOAT' => 1680338495.5573
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/9ae045c/yii.js'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42094'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/9ae045c/yii.js'
+    'REQUEST_URI' => '/backend/assets/9ae045c/yii.js'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/9ae045c/yii.js'
+    'REQUEST_TIME_FLOAT' => 1680338495.5797
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.validation.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/9ae045c/yii.validation.js'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42096'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/9ae045c/yii.validation.js'
+    'REQUEST_URI' => '/backend/assets/9ae045c/yii.validation.js'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/9ae045c/yii.validation.js'
+    'REQUEST_TIME_FLOAT' => 1680338495.5903
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/9ae045c/yii.activeForm.js'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42106'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/9ae045c/yii.activeForm.js'
+    'REQUEST_URI' => '/backend/assets/9ae045c/yii.activeForm.js'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/9ae045c/yii.activeForm.js'
+    'REQUEST_TIME_FLOAT' => 1680338495.5945
+    'REQUEST_TIME' => 1680338495
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42080'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338495.6138
+    'REQUEST_TIME' => 1680338495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42106'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338495.6631
+    'REQUEST_TIME' => 1680338495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42080'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338495.7027
+    'REQUEST_TIME' => 1680338495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:41:35 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:35 [172.22.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42106'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338495.7396
+    'REQUEST_TIME' => 1680338495
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: Login Required in /app/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /app/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /app/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /app/vendor/yiisoft/yii2/base/Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /app/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /app/vendor/yiisoft/yii2/web/Controller.php(222): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#9 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /app/backend/web/index.php(18): yii\base\Application->run()
+#12 {main}
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42106'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'REQUEST_URI' => '/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/assets/dceea2dc/dist/css/bootstrap.css'
+    'REQUEST_TIME_FLOAT' => 1680338508.6643
+    'REQUEST_TIME' => 1680338508
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: Login Required in /app/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /app/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#2 /app/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /app/vendor/yiisoft/yii2/base/Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /app/vendor/yiisoft/yii2/base/Controller.php(297): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /app/vendor/yiisoft/yii2/web/Controller.php(222): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(176): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#9 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /app/backend/web/index.php(18): yii\base\Application->run()
+#12 {main}
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+    in /app/backend/views/layouts/main.php:74
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2023-04-01 08:41:48 [172.22.0.1][-][f6477dea2666a55510b99cc5fa1ece9d][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8000/backend/assets/9ae045c/yii.activeForm.js'
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'f28077457032'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/backend/index.php?r=site%2Flogin'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/css/site.css'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '42080'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/css/site.css'
+    'REQUEST_URI' => '/backend/css/site.css'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/css/site.css'
+    'REQUEST_TIME_FLOAT' => 1680338508.6643
+    'REQUEST_TIME' => 1680338508
+    'argv' => []
+    'argc' => 0
+]
+2023-04-01 08:43:56 [172.23.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.23.0.1
+    in /app/backend/views/layouts/blank.php:30
+    in /app/backend/controllers/SiteController.php:89
+2023-04-01 08:43:56 [172.23.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.23.0.1
+2023-04-01 08:43:56 [172.23.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'bf1df7106be9311312070d208350e4ef'
+    '_csrf-frontend' => 'da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ\";}'
+    'advanced-backend' => 'f6477dea2666a55510b99cc5fa1ece9d'
+    '_csrf-backend' => '4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HOSTNAME' => 'd162ac130c47'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_VERSION' => '7.4.30'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz.asc'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.30.tar.xz'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => 'ea72a34f32c67e79ac2da7dfe96177f3c451c3eefae5810ba13312ed398ba70d'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'advanced-frontend=bf1df7106be9311312070d208350e4ef; _csrf-frontend=da86342c750e0a2afab7b5141991cd68922558576ed16598c7962ae970ed5115a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PxK64eZxlzQGyzFukF2Z35rdhdyrelUJ%22%3B%7D; advanced-backend=f6477dea2666a55510b99cc5fa1ece9d; _csrf-backend=4e5a5f5ec6ecbbc2c53cf00e149a59f1a921c5b17f0cc038fbf9355091feaa5fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CrZBYuCxkC5pXfe8EQebUC5vASKeEeAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Opera\";v=\"93\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"107\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8000'
+    'PATH_INFO' => '/backend/index.php'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.23.0.4'
+    'REMOTE_PORT' => '38016'
+    'REMOTE_ADDR' => '172.23.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.21.6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/etc/nginx/html'
+    'DOCUMENT_URI' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1680338636.0186
+    'REQUEST_TIME' => 1680338636
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
